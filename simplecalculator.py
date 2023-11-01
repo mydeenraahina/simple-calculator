@@ -36,13 +36,13 @@ choice1=input("Enter y to start calculation :")
 if choice1=="y":
     cal()
 else:
-    print("Thankyou")
+    print("Type your choice yes to continue calculation /no to exit")
 while True:
-    choice2=input("Enter 1 to continue calculation :")
-    if choice2=="1":
+    choice2=input("Do you cntinue this calculation:")
+    if choice2=="yes":
         cal()
     else:
-        print("!")
+        print("exit!")
         break
       
       
